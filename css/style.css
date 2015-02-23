@@ -1,0 +1,172 @@
+* {
+padding:0;
+margin:0;
+}
+
+body {
+padding-top:25px;
+font-size: 100%;
+font-family: Georgia, sans-serif;
+}
+
+.inner-wrap {
+padding:0 30px;
+width:75%;
+text-align:center;
+float: left;
+}
+
+nav {
+float:left;
+margin:5px 0 0 90px;
+}
+
+h1 {
+font-family: 'Lora', serif;
+font-size: 3.2em;
+color: #f5f5f5;
+padding: 5px 10px 25px 10px;
+margin: 0 auto;
+}
+
+h2 {
+position:relative;
+top:70px;
+font-size:2.4em;
+text-align:center;
+color:#777;
+text-shadow:1px 1px 1px #fff;
+}
+
+.main{
+border-top:1px solid #fff;
+border-right:1px solid #ccc;
+border-left:1px solid #ccc;
+border-bottom:1px solid #000;
+margin:20px 15px;
+border-radius:15px;
+box-shadow:2px 2px 5px rgba(0,0,0, 0.3);
+background:#ffb691;
+background-image:-webkit-linear-gradient(top, #f5f5f5, #ccc);
+float:left;
+}
+
+#up, #down{
+width: 35%;
+height: 200px;
+}
+
+#customForm {
+float:left;
+margin: 20px;
+}
+
+.formInner {
+float:left;
+margin:35px 0 0 50px;
+}
+
+#engWord, #rusWord {
+width:300px;
+height:100px;
+display:inline-block;
+}
+
+#newEngWord, #newRusWord {
+width:200px;
+float:left;
+}
+
+#saveCustom, 
+#showList {
+float:left;
+margin: 42px 10px 0 10px;
+}
+
+.button {
+width:100px;
+height:80px;
+}
+
+#selectDiv {
+width:200px;
+height:80px;
+}
+
+#selectDiv span {
+color:#555;
+font-size:0.9em;
+position:relative;
+top:4px;
+}
+
+#select {
+width:150px;
+margin:5px 5px 25px 5px;
+}
+
+#start, #check, #giveUp {
+padding:5px 10px;
+margin-top:25px;
+}
+
+#enterForm {
+margin:auto;
+text-align:center;
+margin-top:75px;
+width:280px;
+}
+
+#enterWord{
+padding:5px 10px;
+margin-top:5px;
+font-size:1.2em;
+}
+
+.true {
+-webkit-box-shadow: 0 0 15px 20px rgba(29,211,0, 0.5);
+ -webkit-transition:box-shadow 0.5s ease;
+ transition:box-shadow 0.5s ease;
+}
+
+.false {
+box-shadow: 0 0 15px 20px rgba(246,104,118, 0.5);
+ -webkit-transition:all 0.5s ease;
+ transition:all 0.5s ease;
+}
+
+
+footer {
+padding:10px;
+margin: 30px auto;
+text-align: center;
+}
+
+footer p {
+color:#ccc;
+display:inline-block;
+font-size:0.8em;
+}
+
+footer p  span {
+ color: #333;
+}
+
+#list {
+ position: absolute;
+ top: 260px;
+ left: 240px;
+ background: #f5f5f5;
+ color: #777;
+ padding: 15px 20px;
+ border: 1px solid #ccc;
+ border-radius: 10px;
+ display: none;
+}
+
+#list p {
+ float: left;
+ margin: 0;
+ padding: 0;
+}
+
