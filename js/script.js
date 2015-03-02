@@ -16,8 +16,6 @@ $(document).ready(function() {
 		$('.tooltipButton').tooltip();
 		
 		window.addEventListener('resize', function() {
-			console.log( document.documentElement.clientWidth );
-			
 			if( document.documentElement.clientWidth <= '768' ) {
 				$('.custom-controllers').tooltip();
 			} else {

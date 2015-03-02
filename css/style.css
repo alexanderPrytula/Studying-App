@@ -227,6 +227,9 @@ footer p  span {
 	#modal-approve h2 {
 		font-size: 1.7em;
 	}
+}
+
+@media (min-width: 768px) {
 	#navbar {
 		float: right;
 	}
