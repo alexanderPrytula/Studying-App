@@ -81,7 +81,7 @@ $(document).ready(function() {
 	$('#check').click(function() {
 	  
 		$('#down').removeClass('true false');
-			word = $('input[type="text"]').val().toLowerCase();	  
+			word = $('input[type="text"]').val().toLowerCase().trim();	  
 	  
 		switch(chosenMode) {
 			case 'Elementary':
@@ -172,8 +172,7 @@ $(document).ready(function() {
 		switch(parseInt((e.which),10)) {
 			case 13:
 				$('#down').removeClass('true false');
-				word = $('input[type="text"]').val();
-				word = word.toLowerCase();
+				word = $('input[type="text"]').val().toLowerCase().trim();
 	   
 	  
 			switch(chosenMode) {
